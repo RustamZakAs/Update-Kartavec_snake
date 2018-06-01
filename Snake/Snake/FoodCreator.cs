@@ -19,7 +19,7 @@ namespace Snake
 			this.mapWidht = mapWidth;
 			this.mapHeight = mapHeight;
 			this.sym = sym;
-      }
+        }
 
 		public Point CreateFood()
 		{
@@ -27,5 +27,5 @@ namespace Snake
 			int y = random.Next( 2, mapHeight - 2 );
 			return new Point( x, y, sym );
 		}
-	}
+    }
 }

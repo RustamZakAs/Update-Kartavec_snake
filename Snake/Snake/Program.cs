@@ -49,8 +49,7 @@ namespace Snake
 			}
 			WriteGameOver();
 			Console.ReadLine();
-      }
-
+        }
 
 		static void WriteGameOver()
 		{
